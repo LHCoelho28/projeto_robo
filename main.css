@@ -1,0 +1,20 @@
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+.light-theme{
+    --bg: var(--green);
+    --font-color: var(--white);
+}
+.dark-theme{
+    --bg: var(--black);
+    --font-color: var(--green);
+}
+*{
+    color: var(--font-color);
+    font-family:Helvetica;
+}
+body{
+    background: var(--bg);
+}
